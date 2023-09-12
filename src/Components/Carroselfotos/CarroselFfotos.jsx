@@ -1,13 +1,7 @@
 import React from 'react'
 import './CarroselFotos.css'
-/* import { Pagination, Navegation } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
-import img1 from '../../assets/bgEscolhaPerfil.png'
-import img2 from '../../assets/bgFormBike.png'
-import 'swiper/css'
-import 'swiper/css/navegation'
-import 'swiper/css/pagination'
- */
+import back from '../../assets/imgLinkBack.svg'
+import { Link } from 'react-router-dom'
 
 export default function CarroselFotos() {
 
@@ -15,9 +9,11 @@ export default function CarroselFotos() {
   return (
     <div>
       <div className="div-container-fotos">
-
         <div className="container-slider">
-          oi
+            <p>Aqui terá um carrossel com as fotos tiradas</p>
+          <div className="back-carrossel">
+            <Link to='/docBike'><img src={back} alt="" /></Link>
+          </div>
         </div>
       </div>
     </div>

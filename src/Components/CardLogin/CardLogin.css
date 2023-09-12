@@ -5,6 +5,9 @@
 }
 
 @media only screen and (max-width:743px) and (min-width: 360px){
+  .fundo_comp{
+    display: none;
+  }
   .body-l{
     background-image: url('../../assets/bglogin1.png');
     background-repeat: no-repeat;
@@ -109,6 +112,9 @@
 }
 
 @media only screen and (min-width: 744px) and (max-width:799px){
+  .fundo_comp{
+    display: none;
+  }
   .body-l{
     background-image: url('../../assets/bglogin1.png');
     background-repeat: no-repeat;
@@ -212,6 +218,9 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width:834px){
+  .fundo_comp{
+    display: none;
+  }
   .body-l{
     background-image: url('../../assets/bglogin1.png');
     background-repeat: no-repeat;
@@ -316,12 +325,16 @@
 }
 
 @media only screen and (min-width: 835px) and (max-width: 999px){
+  .fundo_comp{
+    display: none;
+  }
   .body-l{
     background-image: url('../../assets/bglogin1.png');
     background-repeat: no-repeat;
     background-color: #009ee2;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
     
   }
   
@@ -419,8 +432,177 @@
 }
 
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
   .body-l{
     display: none;
   }
+
+  .fundo_comp{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #003146;
 }
+
+.fundo-img-pc{
+  width: 898px;
+  height: 580px;
+  margin-top: 50px;
+}
+
+.tela-pc{
+    width: 798px;
+    height: 580px;
+    
+    
+}
+
+.img-tela-pc{
+    width: 900px;
+    height: 875px;
+    margin: 0px auto;
+    border: 1px solid #003146;
+    
+}
+
+.texto-pc{
+
+    background: #1C1B19;
+    width: 400px;
+    height: 245px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px 150px;
+    opacity: 80%;
+    position: relative;
+    bottom: 390px;
+    z-index: 10;
+    
+}
+
+.p-pc{
+    width: 360px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px){
+  .body-l{
+    display: none;
+  }
+
+  .fundo_comp{
+    width: 100%;
+    height: 100vh;
+    background-color: #003146;
+}
+
+.fundo-img-pc{
+  width: 898px;
+  height: 580px;
+  margin-top: 2%;
+}
+
+.tela-pc{
+    width: 898px;
+    height: 580px;
+    
+    
+}
+
+.img-tela-pc{
+    width: 900px;
+    height: 575px;
+    margin: 0px auto;
+    border: 1px solid #003146;
+    
+}
+
+.texto-pc{
+
+    background: #1C1B19;
+    width: 400px;
+    height: 245px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px 150px;
+    opacity: 80%;
+    position: relative;
+    bottom: 390px;
+    z-index: 10;
+    
+}
+
+.p-pc{
+    width: 360px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
+}
+}
+
+@media only screen and (min-width: 1500px){
+  .body-l{
+    display: none;
+  }
+
+  .fundo_comp{
+    width: 100%;
+    height: 100vh;
+    background-color: #003146;
+}
+
+.fundo-img-pc{
+  width: 898px;
+  height: 580px;
+  margin-top: 15%;
+}
+
+.tela-pc{
+    width: 898px;
+    height: 580px;
+    
+    
+}
+
+.img-tela-pc{
+    width: 900px;
+    height: 575px;
+    margin: 0px auto;
+    border: 1px solid #003146;
+    
+}
+
+.texto-pc{
+
+    background: #1C1B19;
+    width: 400px;
+    height: 245px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px 150px;
+    opacity: 80%;
+    position: relative;
+    bottom: 390px;
+    z-index: 10;
+    
+}
+
+.p-pc{
+    width: 360px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
+}
+}
+

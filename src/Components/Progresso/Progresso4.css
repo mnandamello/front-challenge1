@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 360px) and (max-width:743px){
+  .div-group7{
+    background-color: #003146;
+    display: flex;
+    justify-content: center;
+    height: 52px;
+  }
+
+  .g4bolved1{
+    width:82px;
+    height: 36px;
+    margin-top: 10px;
+  }
+
+  .g4bolved2{
+      width:82px;
+      height: 36px;
+      margin-top: 10px;
+
+    }
+
+  .g4bolved3{
+      width:82px;
+      height: 36px;
+      margin-top: 10px;
+  }
+
+  .g4group{
+      width:110px;
+      margin-top: 10px;
+      height: 36px;
+  }
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px){
+  .div-group7{
+    background-color: #003146;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+  }
+  
+  .g4bolved1{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+  }
+
+    .g4bolved2{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4bolved3{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4group{
+      width:195px;
+      height: 60px;
+      margin-top: 4px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+  .div-group7{
+    background-color: #003146;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+  }
+  
+  .g4bolved1{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+  }
+
+    .g4bolved2{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4bolved3{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4group{
+      width:195px;
+      height: 60px;
+      margin-top: 4px;
+        
+    }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 854px){
+  .div-group7{
+    background-color: #003146;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+  }
+  
+  .g4bolved1{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+  }
+
+    .g4bolved2{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4bolved3{
+      width:145px;
+      height: 60px;
+      margin-top: 4px;
+
+    }
+
+    .g4group{
+      width:195px;
+      height: 60px;
+      margin-top: 4px;
+        
+    }
+}
+
+@media only screen and (min-width: 855px){
+  .div-group7{
+    display: none;
+  }
+}

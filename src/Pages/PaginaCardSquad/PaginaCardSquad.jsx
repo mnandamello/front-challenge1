@@ -1,55 +1,34 @@
-import React from 'react'
-import './PaginaCardSquad.css'
-import Slider from 'react-slick';
-import CardSquad from '../../Components/CardSquad/CardSquad';
-import Progresso from '../../Components/Progresso/Progresso';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import NavBar from '../../Components/NavBar/NavBar';
-import imgmaria from '../../assets/img-maria.jpeg';
+import React from "react";
+import "./PaginaCardSquad.css";
+import Slider from "react-slick";
+import CardSquad from "../../Components/CardSquad/CardSquad";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import NavBar from "../../Components/NavBar/NavBar";
 
-export default function PaginaCardSquad() /* {
+export default function PaginaCardSquad() {
 
-  return (
-    <>
-        <div className="cont-card-squad"> 
-            <h2>Cards Squad</h2>
-            <div className='card-squad-list'>
-            <CardSquad/>
-            <CardSquad/>
-            <CardSquad/>
-            <CardSquad/>
-            <CardSquad/>
-            </div>
-        </div>
-    </>
-  )
-} */
-{
   const participants = [
-
     {
-      name: "Gabrielli",
+      name: "Gabrielle da Silva Stanguini",
       rm: "98818",
       role: "Desenvolvedora",
-      imgSrc: 'https://avatars.githubusercontent.com/u/125506327?v=4',
+      imgSrc: "https://avatars.githubusercontent.com/u/125506327?v=4",
       social: {
-        instagram: "https://www.instagram.com/seu_instagram_2",
-        github: "https://github.com/seu_github_2",
-        linkedin: "https://www.linkedin.com/in/seu_linkedin_2",
+        instagram: "https://www.instagram.com/gabi_stanguini/",
+        github: "https://github.com/gabi1482",
+        linkedin: "https://www.linkedin.com/in/gabrielle-da-silva-stanguini-41b202265/",
       },
     },
-
-
 
     {
       name: "Lucca Freitas",
       rm: "98819",
       role: "Desenvolvedor",
-      imgSrc: "https://avatars.githubusercontent.com/u/126486303?v=4", 
+      imgSrc: "https://avatars.githubusercontent.com/u/126486303?v=4",
       social: {
-        instagram: "https://www.instagram.com/seu_instagram_1",
-        github: "https://github.com/seu_github_1",
+        instagram: "https://www.instagram.com/luc.freitass/",
+        github: "https://github.com/lucfreitass",
         linkedin: "https://www.linkedin.com/in/seu_linkedin_1",
       },
     },
@@ -58,11 +37,11 @@ export default function PaginaCardSquad() /* {
       name: "Maria Fernanda Ribeiro Mello",
       rm: "98818",
       role: "Desenvolvedora",
-      imgSrc: 'https://avatars.githubusercontent.com/u/106833193?v=4',
+      imgSrc: "https://avatars.githubusercontent.com/u/106833193?v=4",
       social: {
-        instagram: "https://www.instagram.com/seu_instagram_2",
-        github: "https://github.com/seu_github_2",
-        linkedin: "https://www.linkedin.com/in/seu_linkedin_2",
+        instagram: "https://www.instagram.com/mnandamello/",
+        github: "https://github.com/mnandamello",
+        linkedin: "https://www.linkedin.com/in/maria-fernanda-b31526243/",
       },
     },
 
@@ -70,11 +49,11 @@ export default function PaginaCardSquad() /* {
       name: "Nicolas Reis",
       rm: "98819",
       role: "Desenvolvedor",
-      imgSrc: "https://avatars.githubusercontent.com/u/106833483?v=4", 
+      imgSrc: "https://avatars.githubusercontent.com/u/106833483?v=4",
       social: {
-        instagram: "https://www.instagram.com/seu_instagram_1",
-        github: "https://github.com/seu_github_1",
-        linkedin: "https://www.linkedin.com/in/seu_linkedin_1",
+        instagram: "https://www.instagram.com/nicolasrreis/",
+        github: "https://github.com/Nreis280",
+        linkedin: "https://www.linkedin.com/in/nicolas-reis-441167248/",
       },
     },
 
@@ -82,20 +61,14 @@ export default function PaginaCardSquad() /* {
       name: "Renan Vieira",
       rm: "98819",
       role: "Desenvolvedor",
-      imgSrc: "https://www.instagram.com/p/Cf171GRONyj/?igshid=MzRlODBiNWFlZA==", 
+      imgSrc:
+        "https://avatars.githubusercontent.com/u/126690468?v=4",
       social: {
-        instagram: "https://www.instagram.com/seu_instagram_1",
-        github: "https://github.com/seu_github_1",
-        linkedin: "https://www.linkedin.com/in/seu_linkedin_1",
+        instagram: "https://www.instagram.com/rvd_jesus/",
+        github: "https://github.com/Renanvj",
+        linkedin: "https://www.linkedin.com/in/renan-vieira-je/",
       },
     },
-
-
-
-
- 
-
-
   ];
 
   const settings = {
@@ -106,7 +79,7 @@ export default function PaginaCardSquad() /* {
     slidesToScroll: 1,
   };
 
- /*  const settingsPc = {
+  /*  const settingsPc = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -114,22 +87,16 @@ export default function PaginaCardSquad() /* {
     slidesToScroll: 0,
   }; */
 
-  
   return (
     <>
-
-        <div className="propsCards">
-              <Slider {...settings}>
-                {participants .map((member, index) => (
-                  <CardSquad key={index} {...member} />
-                ))}
-              </Slider>
-        </div>
-        <NavBar/>
-
-      
+      <div className="propsCards">
+        <Slider {...settings}>
+          {participants.map((member, index) => (
+            <CardSquad key={index} {...member} />
+          ))}
+        </Slider>
+      </div>
+      <NavBar />
     </>
-  )
+  );
 }
-
-

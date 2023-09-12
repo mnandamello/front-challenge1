@@ -7,7 +7,7 @@ export default function HeaderInfos() {
     <div>
       <div className="header-info">
         <div className="img-header">
-          <a href=""><img className='logo-porto2' src={logo} alt="" /></a>
+          <a href="https://www.portoseguro.com.br/conteudo/seguros/bike/"><img className='logo-porto2' src={logo} alt="" /></a>
         </div>
       </div>
     </div>

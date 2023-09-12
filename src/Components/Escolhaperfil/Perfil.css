@@ -21,7 +21,11 @@
   .div-card{
     width: 340px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 50px;
+  }
+
+  .div-prog1{
+    margin-bottom: 10px;
   }
   
   .imagem-escolha{
@@ -116,7 +120,11 @@
   
   .div-card{
     width: 643px;
-    margin: 130px auto 0 auto;
+    margin: 70px auto 0 auto;
+  }
+
+  .div-prog1{
+    margin-bottom: 10px;
   }
   
   .imagem-escolha{
@@ -201,9 +209,13 @@
   
   .div-card{
     width: 643px;
-    margin: 130px auto 0 auto;
+    margin: 80px auto 0 auto;
   }
   
+  .div-prog1{
+    margin-bottom: 10px;
+  }
+
   .imagem-escolha{
     background-image: url('../../assets/bgEscolhaPerfilT.png');
     width: 100%;

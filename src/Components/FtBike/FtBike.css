@@ -7,7 +7,10 @@
     .container-cliente{
         background-color: #003146;
         height: 200vh;
-        
+    }
+
+    .div-prog3{
+        padding-top: 40px;
     }
     
     .foto-bike{
@@ -20,8 +23,8 @@
     .foto-bike-final{
         background-image: url('../../assets/bgFormsPessoal.png');
         width: 340px;
-        height: 468px;
-        margin: 30px auto 0;
+        height: 388px;
+        margin: 30px auto;
         border-radius: 20px;
     }
     
@@ -31,12 +34,25 @@
         color: #3C95BC;
         padding-top:10px ;
     }
+
+    .ft-bike-esquerda2{
+        width: 300px;
+        margin: 0px auto;;
+        color: #3C95BC;
+        padding-top:50px ;
+    }
     
-    
+    .foto-bike img{
+        width: 300px;
+    }
+
+    .bk-ft-frente, .bk-ft-tras, .bk-ft-chassi{
+        width: 220px;
+    }
     
     .ft-bike-direita {
         width: 300px;
-        margin: 50px auto;
+        margin: 20px auto;
         color: #3C95BC;
     }
     
@@ -45,12 +61,8 @@
         margin: 10px auto;
     }
     
-    .bk-ft-tras{
-        margin-left: 27px;
-    }
-    
-    .bk-ft-frente{
-        margin-left: 15px;
+    .bk-ft-chassi{
+       margin-left: 35px;
     }
     
   /*   h3{
@@ -81,6 +93,10 @@
         margin: auto;
     }
     
+    .botao-foto{
+        width: 137px;
+        margin: 0px auto;   
+    }
 }
 
 @media only screen and (min-width: 744px) and (max-width:799px){
@@ -89,54 +105,64 @@
         min-height: 100vh;
         
     }
+
+    .titulos-Ft{
+        font-size: 24px;
+    }
     
     .foto-bike{
         background: white;
         width: 643px;
         /* height: 468px; */
         margin: 0 auto;
+        padding-top: 10px;
     }
     
     .foto-bike-final{
         background-image: url('../../assets/bgFormPessoalT.png');
         width: 100%;
-        height: 675px;
+        height: 575px;
         margin: 30px auto 0;
         border-radius: 20px;
     }
     
     .ft-bike-esquerda{
-        width: 600px;
-        margin: 0px auto;;
+        width: 400px;
+        margin: 0px auto;
         color: #3C95BC;
         padding-top:10px ;
-        border: 1px solid rgb(181, 56, 56);
     }
-    
+
+    .ft-bike-esquerda2{
+        width: 400px;
+        margin: 0px auto;
+        color: #3C95BC;
+        padding-top:75px ;
+    }
     
     
     .ft-bike-direita {
-        width: 600px;
+        width: 400px;
         margin: 50px auto;
         color: #3C95BC;
-        border: 1px solid rgb(181, 43, 43);
     }
     
     .bk-direita, .bk-esquerda{
-        width: 380px;
+        width: 330px;
         margin: 10px auto;
-        border: 1px solid rgb(77, 170, 71);
     }
     
     .bk-ft-tras{
-        margin: 0 0 7px 0;
-        border: 1px solid rgb(224, 127, 29);
+        margin: 0 0 7px 10px;
     }
     
     .bk-ft-frente{
         margin: 0 0 7px 0;
         margin-left: 15px;
-        border: 1px solid rgb(174, 179, 17);
+    }
+
+    .bk-ft-chassi{
+        margin: 0 0 7px 0px;
     }
     
     /* h3{
@@ -157,11 +183,11 @@
         border: 1px solid black;
 
     }
-    
+
     .conteudo-ft input {
     
         width: 119px;
-        margin: 7.5px 90px;
+        margin: 7.5px 150px;
     }
     
     .conteudo-ft{
@@ -170,15 +196,117 @@
         width: 643px;
         margin: auto;
     }
+
+    .botao-foto{
+        width: 200px;
+        margin: 0px auto;
+    }
 }
 
 @media only screen and (min-width: 800px) and (max-width:834px){
+    .container-cliente{
+        background-color: #003146;
+        min-height: 100vh;
+        
+    }
 
+    .titulos-Ft{
+        font-size: 24px;
+    }
+    
+    .foto-bike{
+        background: white;
+        width: 643px;
+        /* height: 468px; */
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    
+    .foto-bike-final{
+        background-image: url('../../assets/bgFormPessoalT.png');
+        width: 100%;
+        height: 575px;
+        margin: 30px auto 0;
+        border-radius: 20px;
+    }
+    
+    .ft-bike-esquerda{
+        width: 400px;
+        margin: 0px auto;
+        color: #3C95BC;
+        padding-top:10px ;
+    }
+
+    .ft-bike-esquerda2{
+        width: 400px;
+        margin: 0px auto;
+        color: #3C95BC;
+        padding-top:75px ;
+    }
+    
+    
+    .ft-bike-direita {
+        width: 400px;
+        margin: 50px auto;
+        color: #3C95BC;
+    }
+    
+    .bk-direita, .bk-esquerda{
+        width: 330px;
+        margin: 10px auto;
+    }
+    
+    .bk-ft-tras{
+        margin: 0 0 7px 10px;
+    }
+    
+    .bk-ft-frente{
+        margin: 0 0 7px 0;
+        margin-left: 15px;
+    }
+
+    .bk-ft-chassi{
+        margin: 0 0 7px 0px;
+    }
+    
+    /* h3{
+        margin: 0 auto 20px;
+        width: 381px;
+        font-size: 24px;
+    }
+     */
+    
+    
+    .form-ft-bk{
+        margin: 0 auto;
+        width: 400px;
+        height: 36px;
+        margin-top: 20px;
+        border: 1px solid #BEDDEB;
+        border-radius: 20px;
+        border: 1px solid black;
+
+    }
+
+    .conteudo-ft input {
+    
+        width: 119px;
+        margin: 7.5px 150px;
+    }
+    
+    .conteudo-ft{
+        background-color: white;
+        border-radius: 20px;
+        width: 643px;
+        margin: auto;
+    }
+
+    .botao-foto{
+        width: 200px;
+        margin: 0px auto;
+    }
 }
 
-@media only screen and (min-width: 835px) and (max-width: 854px){
-
-}
 
 @media only screen and (min-width: 855px){
     .container-cliente{

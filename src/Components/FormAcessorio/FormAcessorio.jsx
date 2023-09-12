@@ -1,38 +1,61 @@
-import React from "react";
+import React , { useState } from "react";
 import "./FormAcessorio.css";
 import { useForm } from "react-hook-form";
 import Button from "../Button/Button";
+import Header from "../Header/Header";
+import Progresso3 from "../Progresso/Progresso3";
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from "yup";
 
+
+const schema = yup.object({
+  Marca : yup.string().required(),
+  Modelo : yup.string().required(),
+  Tipo : yup.string().required(),
+  Valor : yup.string().required(),
+  NotaFiscal : yup.string().required(),
+}).required();
 
 export default function FormAcessorio() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
-  console.log(errors);
 
+  const {register, handleSubmit, formState: {errors}, setFocus, setValue} = useForm({resolver : yupResolver(schema)})
+
+  const [formAc, setformAc] = useState ({'Marca' : '', 'Modelo':'', 'Tipo':'', 'Valor':'', 'NotaFiscal':''})
+
+  const [listaForm, setlistaForm] = useState([])
+
+  function inserirFormAc(FormAcessorio){
+    setlistaForm([...listaForm, FormAcessorio])
+    window.location.href = '/';
+  }
+
+  
   return (
     <div>
+      <div className="header-mobile-pessoal">
+        <Header/>
+      </div>
       <div className="body-form-ac">
         <div className="bg">
+          <div className="div-prog1">
+            <Progresso3/>
+          </div>
           <div className="fundo-img">
             <div className="form-ac">
-              <form onSubmit={handleSubmit(onSubmit)}>
+              <form action="/" onSubmit={handleSubmit(inserirFormAc)}>
                 <legend>Informações do Acessório</legend>
                 <input
                   id="marcaC"
                   type="text"
                   placeholder="Marca"
-                  {...register("Marca", { required: true, maxLength: 50 })}
+                  {...register("Marca")}
                 />
 
                 <input
                   id="modeloC"
                   type="text"
                   placeholder="Modelo"
-                  {...register("Modelo", { required: true, maxLength: 100 })}
+                  {...register("Modelo")}
                 />
 
                 <div className="flex">
@@ -40,18 +63,14 @@ export default function FormAcessorio() {
                     id="tipoC"
                     type="text"
                     placeholder="Tipo"
-                    {...register("Tipo", { required: true })}
+                    {...register("Tipo")}
                   />
 
                   <input
                     id="valorC"
                     type="number"
                     placeholder="Valor"
-                    {...register("Valor", {
-                      required: true,
-                      min: 4,
-                      maxLength: 10,
-                    })}
+                    {...register("Valor")}
                   />
                 </div>
 
@@ -59,11 +78,11 @@ export default function FormAcessorio() {
                   id="nfC"
                   type="number"
                   placeholder="Nota Fiscal"
-                  {...register("Nota Fiscal", { required: true, max: 7 })}
+                  {...register("NotaFiscal")}
                 />
 
                 <div className="validAc">
-                  <Button />
+                    <Button />
                 </div>
               </form>
             </div>

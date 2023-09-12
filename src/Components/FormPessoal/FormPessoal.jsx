@@ -1,6 +1,7 @@
 import "./FormPessoal.css";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
+import Progresso1 from "../Progresso/Progresso1";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link} from "react-router-dom";
@@ -8,16 +9,16 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 
 const schema = yup.object({
-  Nome : yup.string().required("O nome precisa ser preenchido"),
-  DtNascimento : yup.string().required("A data de nascimento é obrigatória"),
-  CPF : yup.string().required("O CPF é obrigatório"),
-  Celular : yup.string().required("O celular é obrigatório"),
-  Cep : yup.string().required("O CEP é obrigatório"),
-  Cidade : yup.string().required("A cidade é obrigatória"),
-  Logradouro : yup.string().required("O logradouro é obrigatório"),
-  Número : yup.string().required("O número é obrigatório"),
-  Estado : yup.string().required("O estado é obrigatório"),
-  Complemento : yup.string().required("O complemento é obrigatório"),
+  Nome : yup.string().required(),
+  DtNascimento : yup.string().required(),
+  CPF : yup.string().required(),
+  Celular : yup.string().required(),
+  Cep : yup.string().required(),
+  Cidade : yup.string().required(),
+  Logradouro : yup.string().required(),
+  Número : yup.string().required(),
+  Estado : yup.string().required(),
+  Complemento : yup.string().required(),
 }).required();
 
 
@@ -25,12 +26,14 @@ const schema = yup.object({
 export default function FormPessoal() {
   
   const {register, handleSubmit, formState: {errors}, setFocus, setValue} = useForm({resolver : yupResolver(schema)})
+
   const [formPessoal, setformPessoal] = useState ({'Nome' : '', 'DtNascimento':'', 'CPF':'', 'Celular':'', 'Cep':'', 'Cidade':'', 'Logradouro':'', 'Número':'', 'Estado':'', 'Complemento':''})
+  
   const [listaForm, setlistaForm] = useState([])
 
   function inserirFormPessoal(FormPessoal){
     setlistaForm([...listaForm, FormPessoal])
-    window.location.href = '/doccliente';
+    window.location.href = '/formBike';
   }
 
   function cadCliente(e){
@@ -43,9 +46,12 @@ export default function FormPessoal() {
     </div>
     <div className="body-forms-pesssoal">
       <div className="backgraound-pessoal">
+        <div className="div-prog1">
+          <Progresso1/>
+        </div>
         <div className="form-fundo-pessoal">
           <div className="form-cont-pessoal">
-            <form action="/doccliente" onSubmit={handleSubmit(inserirFormPessoal)}>
+            <form action="/formBike" onSubmit={handleSubmit(inserirFormPessoal)}>
               <legend>Formulário Pessoa Fisica</legend>
 
               <input
@@ -53,9 +59,9 @@ export default function FormPessoal() {
                 type="text"
                 placeholder="Nome"
                 onChange={cadCliente}
+                defaultValue={formPessoal.Nome}
                 {...register("Nome")}
               />
-              <span>{ errors.Nome?.message }</span>
 
               <div className="duble-pessoal">
                 <input

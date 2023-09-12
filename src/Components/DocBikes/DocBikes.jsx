@@ -68,7 +68,7 @@ export default function DocBikes() {
                 <p className='p-bike'>Acessar fotos da bicicleta</p>
               </div>
               <div className="img-galeria">
-                <a href=""><img src={galeria} alt="" /></a>
+                <Link to='/carrosel'><img src={galeria} alt="" /></Link>
               </div>
             </div>
             <div className="back1">

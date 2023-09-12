@@ -6,29 +6,41 @@
 
 @media screen and (min-width: 360px) and (max-width: 767px){
     .cont-status{
-        background-color: #003146;
-        height: 100vh;
+        background-color: #EDEDED;
+        height: 93.9vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-prog2{
+        padding-top: 60px;
     }
     
     .status{
         background-image: url('../../assets/bgFormsPessoal.png');
         width: 340px;
         height: 468px;
-        margin: 0 auto;
         border-radius: 20px;
+        border: 1px solid #EDEDED;;
+        margin-top: 25px;
+    }
+
+    .div-container-geral{
+        width: 340px;
+        height: 568px;
     }
     
     .img-chek{
         width: 65px;
         height: 65px;
-        margin: 10px auto 20px;
+        margin: 0px auto 20px;
     }
     
     
     .texto-status{
         width: 300px;
         height: 448px;
-        margin: 0 auto;
+        margin: 15px auto;
     }
     
     .chek-texto{
@@ -62,4 +74,149 @@
     }
 
     
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px){
+    .cont-status{
+        background-color: #EDEDED;
+        height: 93vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-prog2{
+        padding-top: 80px;
+    }
+    
+    .status{
+        background-image: url('../../assets/bgFormsPessoal.png');
+        width: 440px;
+        height: 548px;
+        border-radius: 20px;
+        border: 1px solid #EDEDED;
+        margin-top: 100px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .div-container-geral{
+        width: 440px;
+        height: 748px;
+    }
+    
+    .img-chek{
+        width: 65px;
+        height: 65px;
+        margin: 0px auto 20px;
+    }
+    
+    
+    .texto-status{
+        width: 400px;
+        height: 468px;
+        margin: 40px auto;
+    }
+    
+    .chek-texto{
+        width: 290px;
+        height: 338px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-confimacao{
+        font-weight: 600;
+    }
+    
+    
+    .img-fall{
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 20px;
+    }
+    
+    
+    .fall-texto{
+        width: 290px;
+        height: 338px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-falha{
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+    .cont-status{
+        background-color: #EDEDED;
+        height: 94.1vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .div-prog2{
+        padding-top: 90px;
+    }
+
+    .status{
+        background-image: url('../../assets/bgFormPessoalT.png');
+        border-radius: 20px;
+        border: 1px solid #EDEDED;
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+        margin-top: 120px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .div-container-geral{
+        width: 648px;
+        height: 888px;
+    }
+    
+    .img-chek{
+        width: 65px;
+        height: 65px;
+        margin: 0px auto 20px;
+    }
+    
+    
+    .texto-status{
+        width: 600px;
+        height: 568px;
+        margin: 50px auto;
+    }
+    
+    .chek-texto{
+        width: 390px;
+        height: 438px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-confimacao{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    
+    .img-fall{
+        width: 100px;
+        height: 100px;
+        margin: 10px auto 20px;
+    }
+    
+    
+    .fall-texto{
+        width: 290px;
+        height: 338px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-falha{
+        font-weight: 600;
+    }
 }

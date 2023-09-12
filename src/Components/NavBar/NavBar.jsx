@@ -14,7 +14,7 @@ export default function NavBar() {
         <div className="svgs">
           <Link to='/documentos'><img src={PESSOAL} alt="" /></Link>
           <Link to='/squad'><img src={Criador} alt="" /></Link>
-          <img src={Chat} alt="" />
+          <Link to='/bot'><img src={Chat} alt="" /></Link>
         </div>
       </div>
     </>
