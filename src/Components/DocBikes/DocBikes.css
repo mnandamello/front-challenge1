@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title1{
+  border-bottom: 1px solid black;
+  width: 325px;
+  margin: 0 auto;
+}
+
+.title1 h3{
+  color: #3C95BC;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;
+  margin: 6px  0 4px 20px;
+}
+
+.container-doc-bike{
+  background-color: #EDEDED;
+  height: 112.3vh;
+  display: flex;
+  justify-content: center ;
+  flex-direction: row;
+}
+
+.div-quadrados-infos{
+  width: 100%;
+  height: 762px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-bike{
+  width: 355px;
+  height: 307px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.info-bike p{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.marca-bk, .modelo-bk, .valor-ano, .nf-bk{
+  margin: 0 0 20px 16px;
+}
+
+.marca-bk{
+  margin-top: 20px;
+}
+
+.valor-ano{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.valor-ano .ano-bk{
+  padding-right: 22px;
+}
+
+.negrito{
+  font-weight: 700;
+  color: #000000;
+}
+
+.cinza{
+  color: #857676;
+}
+
+/*ESTILIZAÇÃO DOS ACESSÓRIOS*/
+
+.title2{
+  border-bottom: 1px solid black;
+  width: 325px;
+  margin: 0 auto;
+}
+
+.title2 h3{
+  color: #3C95BC;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;
+  margin: 6px  0 4px 20px;
+}
+
+.info-ac{
+  width: 355px;
+  height: 277px;
+  background-color: #FFFFFF;
+  margin-top: 12px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.info-ac p{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.marca-ac, .modelo-ac, .tipo-ac, .nf-ac{
+  margin: 0 0 20px 16px;
+}
+
+.marca-ac{
+  margin-top: 20px;
+}
+
+.tipo-valor-ac{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3px;
+}
+
+.tipo-valor-ac .valor-ac{
+  padding-right: 22px;
+}
+
+.nf-ac{
+  margin-bottom: 50px;
+}
+
+.back1{
+  margin-top: 30px;
+}
+
+.info-fotos{
+  width: 355px;
+  padding: 20px 0;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.p-bike{
+  margin-left: 16px;
+  font-family: 'Poppins', sans-serif; 
+  font: 14px;
+  color: #3C95BC;
+  font-weight: 500;
+}
+
+.img-galeria{
+  margin-right: 25px;
+}

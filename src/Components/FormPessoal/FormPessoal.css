@@ -1,0 +1,370 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:743px) and (min-width: 360px){
+    .body-forms-pesssoal {
+        background-color: #003D57;
+        width: 100%;
+        height: 50rem;
+        padding-top: 20px;
+    }
+    
+    .backgraound-pessoal{
+        width: 340px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    
+    .form-fundo-pessoal {
+        background-image: url('../../assets/bgFormsPessoal.png');
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    
+    
+    .form-cont-pessoal{
+        position: relative;
+        width: 95%;
+        height: 520px;
+        top: 15px;
+        left: 3.5%;
+
+    }
+    
+    
+    
+    /*Estilização Forms*/
+    
+    .form-cont-pessoal input{
+        width: 94%;
+        height: 35px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 20px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    
+    .form-cont-pessoal input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+    
+    .form-cont-pessoal legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+    
+    .duble-pessoal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble-pessoal input{
+        width: 140px;
+    }
+
+    .duble-pessoal #dt-nascimento{
+        width: 130px;
+        padding: 0 5px;
+        color: rgb(0, 0, 0, 38%);
+    }
+    
+    .duble-pessoal #cpf, #cidade, #estado{
+        margin-right: 10px;
+    }
+    
+    
+    #nome::placeholder, #dt-nascimento::placeholder, #cpf::placeholder,  #celular::placeholder, #cep::placeholder, #cidade::placeholder, #logradouro::placeholder, #numero::placeholder,#estado::placeholder,#complemento::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+    
+    .valid-pessoal{
+        width: 137px;
+        margin: 25px auto;
+    }
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px) {
+    .body-forms-pesssoal {
+        background-color: #003D57;
+        width: 100vw;
+        height: 75rem;
+        padding-top: 40px;
+    }
+    
+    .backgraound-pessoal{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    
+    .form-fundo-pessoal {   
+        background-image: url('../../assets/bgFormPessoalT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    
+    
+    .form-cont-pessoal{
+        position: relative;
+        width: 95%;
+        height: 815px;
+        top: 60px;
+        left: 3.5%;
+    }
+    
+    
+    
+    /*Estilização Forms*/
+    
+    .form-cont-pessoal input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    
+    .form-cont-pessoal input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+    
+    .form-cont-pessoal legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+    
+    .duble-pessoal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble-pessoal input{
+        width: 44%;
+    }
+
+    .duble-pessoal #dt-nascimento{
+        width: 245px;
+        padding: 0 10px;
+        color: rgb(0, 0, 0, 38%);
+        font-size: 20px;
+    }
+    
+    .duble-pessoal #celular, #cpf, #cidade, #estado{
+        margin-right: 30px;
+        width: 255px;
+    }
+    
+    #nome::placeholder, #dt-nascimento::placeholder, #cpf::placeholder,  #celular::placeholder, #cep::placeholder, #cidade::placeholder, #logradouro::placeholder, #numero::placeholder,#estado::placeholder,#complemento::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+    
+    .valid-pessoal{
+        width: 200px;
+        margin: 25px auto;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width:834px)   {
+
+    .body-forms-pesssoal {
+        background-color: #003D57;
+        width: 100vw;
+        height:75rem;;
+        padding-top: 60px;
+    }
+
+    .backgraound-pessoal{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .form-fundo-pessoal {
+        background-image: url('../../assets/bgFormPessoalT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+
+    .form-cont-pessoal{
+        position: relative;
+        width: 95%;
+        height: 815px;
+        top: 60px;
+        left: 3.5%;
+    }
+
+
+
+    /*Estilização Forms*/
+
+    .form-cont-pessoal input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+
+    .form-cont-pessoal input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+
+    .form-cont-pessoal legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+
+    .duble-pessoal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble-pessoal input{
+        width: 44%;
+    }
+
+    .duble-pessoal #dt-nascimento{
+        width: 245px;
+        padding: 0 10px;
+        color: rgb(0, 0, 0, 38%);
+        font-size: 20px;
+    }
+
+    .duble-pessoal #celular, #cpf, #cidade, #estado{
+        margin-right: 30px;
+        width: 255px;
+    }
+
+    #nome::placeholder, #dt-nascimento::placeholder, #cpf::placeholder,  #celular::placeholder, #cep::placeholder, #cidade::placeholder, #logradouro::placeholder, #numero::placeholder,#estado::placeholder,#complemento::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+
+    .valid-pessoal{
+        width: 200px;
+        margin: 25px auto;
+    }
+
+}
+
+@media only screen and (min-width: 835px) and (max-width: 999px){   
+    .body-forms-pesssoal {
+        background-color: #003D57;
+        width: 100vw;
+        height: 160vh;
+        padding-top: 60px;
+    }
+
+    .backgraound-pessoal{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .form-fundo-pessoal {
+        background-image: url('../../assets/bgFormPessoalT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+
+    .form-cont-pessoal{
+        position: relative;
+        width: 95%;
+        height: 815px;
+        top: 60px;
+        left: 3.5%;
+    }
+
+
+
+    /*Estilização Forms*/
+
+    .form-cont-pessoal input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+
+    .form-cont-pessoal input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+
+    .form-cont-pessoal legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+
+    .duble-pessoal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble-pessoal input{
+        width: 255px;
+    }
+
+    .duble-pessoal #dt-nascimento{
+        width: 245px;
+        padding: 0 10px;
+        color: rgb(0, 0, 0, 38%);
+        font-size: 20px;
+    }
+
+    .duble-pessoal #celular, #cpf, #cidade, #estado{
+        margin-right: 30px;
+        width: 255px;
+    }
+    #nome::placeholder, #dt-nascimento::placeholder, #cpf::placeholder,  #celular::placeholder, #cep::placeholder, #cidade::placeholder, #logradouro::placeholder, #numero::placeholder,#estado::placeholder,#complemento::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+
+    .valid-pessoal{
+        width: 200px;
+        margin: 25px auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    .body-forms-pesssoal{
+        display: none;
+    }
+}

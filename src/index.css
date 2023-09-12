@@ -1,0 +1,33 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  /* Cores da pagina */
+  --bgMenu: #E4F3F6;
+  --bgForms: #003146;
+  --bgEtapaAtual: #009EE2;
+  --bgEtapaConcluida: #1EF01A;
+  --bgEtapaPendente: #E4F3F6;
+  --bgNunberEtapaPendente: #CDCDCD;
+  --bgNunberEtapaoncluida: #FFFFFF;
+  --bgTelaCarregamento: #009EE2;
+  --bgTituloFormPessoal: #003D57;
+  --bgTitulosFormsBk: #3C95BC;
+  --bgTelaDeDocs: #EDEDED;
+  --placeHolder: rgb(0,0,0,38%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*FONTS: 
+font-family: 'Poppins', sans-serif; (400, 500, 600, 700)
+font-family: 'Roboto', sans-serif;(700)
+*/

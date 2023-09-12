@@ -1,0 +1,90 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 360px) and (max-width:743px){
+  .header{
+    width: 100%;
+    height: 44px;
+    background-color: #E4F3F6;
+    position: fixed;
+    z-index: 15;
+  }
+  
+  
+  .cont-logo{
+    float: left;
+    margin: 10px 20px;
+  }
+  
+  .logo{
+    width: 76px;
+  }
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px){
+  .header{
+    width: 100%;
+    height: 64px;
+    background-color: #E4F3F6;
+    position: fixed;
+    z-index: 15;
+  }
+  
+  
+  .cont-logo{
+    float: left;
+    margin: 15px 20px;
+  }
+  
+  .logo{
+    width: 96px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+  .header{
+    width: 100%;
+    height: 74px;
+    background-color: #E4F3F6;
+    position: fixed;
+    z-index: 15;
+  }
+  
+  
+  .cont-logo{
+    float: left;
+    margin: 20px 20px;
+  }
+  
+  .logo{
+    width: 110px;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 999px){
+  .header{
+    width: 100%;
+    height: 84px;
+    background-color: #E4F3F6;
+    position: fixed;
+    z-index: 15;
+  }
+  
+  
+  .cont-logo{
+    float: left;
+    margin: 20px 40px;
+  }
+  
+  .logo{
+    width: 130px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .header{
+    display: none;
+  }
+}

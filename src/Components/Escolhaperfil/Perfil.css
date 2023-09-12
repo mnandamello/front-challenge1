@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:743px) and (min-width: 360px){
+
+  .driv-progresso{
+    width: 100%;
+    height: 100%;
+    padding-top: 43px;
+  }
+
+  .background-page-escolha{
+    background-color: #003D57;
+    width: 100%;
+    height: 115vh;
+  }
+  
+  .div-card{
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+  
+  .imagem-escolha{
+    background-image: url('../../assets/bgEscolhaPerfil.png');
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  
+  .div-conteudo{
+    position: relative;
+    width: 95%;
+    height: 335px;
+    top: 205px;
+    left: 3.5%;
+  }
+  
+  .titulos legend{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C95BC;
+  }
+  
+  .titulos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .custom-2{
+    position: relative;
+    width: 95%;
+    height: 235px;
+    top: 60px;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+  }
+  
+  .bolinha-select-b{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+  }
+
+  .bolinha-select-b label{
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .radio{
+    cursor: pointer;
+    background-color: #0a8cc4;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    position: relative;
+  }
+
+
+  .div-btn{
+    width: 137px;
+    margin: 0px auto;
+    position: relative;
+    bottom: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px){
+
+  .background-page-escolha{
+    background-color: #003D57;
+    width: 100%;
+    height: 75rem;
+    padding-top: 20px;
+  }
+
+  .driv-progresso{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .div-card{
+    width: 643px;
+    margin: 130px auto 0 auto;
+  }
+  
+  .imagem-escolha{
+    background-image: url('../../assets/bgEscolhaPerfilT.png');
+    width: 100%;
+    height: 899px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  
+  .div-conteudo{
+    position: relative;
+    width: 95%;
+    height: 485px;
+    top: 355px;
+    left: 3.5%;
+  }
+  
+  .titulos legend{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3C95BC;
+    padding: 15px 0;
+  }
+  
+  .titulos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .custom-2{
+    position: relative;
+    width: 95%;
+    height: 235px;
+    top: 80px;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+  }
+  
+  .bolinha-select-b{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bolinha-select-b label{
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .radio{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+  }
+
+
+  .div-btn{
+    width: 137px;
+    margin: 0px auto;
+    position: relative;
+    top: 70px;
+    right: 40px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+  .background-page-escolha{
+    background-color: #003D57;
+    width: 100%;
+    height: 75rem;
+    padding-top: 20px;
+  }
+  
+  .div-card{
+    width: 643px;
+    margin: 130px auto 0 auto;
+  }
+  
+  .imagem-escolha{
+    background-image: url('../../assets/bgEscolhaPerfilT.png');
+    width: 100%;
+    height: 899px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  
+  .div-conteudo{
+    position: relative;
+    width: 95%;
+    height: 485px;
+    top: 355px;
+    left: 3.5%;
+  }
+  
+  .titulos legend{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3C95BC;
+    padding: 15px 0;
+  }
+  
+  .titulos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .custom-2{
+    position: relative;
+    width: 95%;
+    height: 235px;
+    top: 80px;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+  }
+  
+  .bolinha-select-b{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bolinha-select-b label{
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .radio{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+  }
+
+  .div-btn{
+    width: 137px;
+    margin: 0px auto;
+    position: relative;
+    top: 70px;
+    right: 40px;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 850px){
+
+}
+
+@media only screen and (min-width: 851px){
+  .container-mobile{
+    display: none;
+  }
+
+
+}

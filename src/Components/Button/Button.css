@@ -1,0 +1,67 @@
+.btn button{
+  width: 137px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003146;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn button:hover{
+  background-color: #075d81;
+}
+
+
+@media only screen and (max-width:834px) and (min-width: 744px) {
+  .btn button{
+    width: 200px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003146;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .btn button:hover{
+    background-color: #075d81;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 999px){
+  .btn button{
+    width: 200px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003146;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .btn button:hover{
+    background-color: #075d81;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .btn{
+    display: none;
+  }
+}

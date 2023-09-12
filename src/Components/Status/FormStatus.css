@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 767px){
+    .cont-status{
+        background-color: #003146;
+        height: 100vh;
+    }
+    
+    .status{
+        background-image: url('../../assets/bgFormsPessoal.png');
+        width: 340px;
+        height: 468px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    
+    .img-chek{
+        width: 65px;
+        height: 65px;
+        margin: 10px auto 20px;
+    }
+    
+    
+    .texto-status{
+        width: 300px;
+        height: 448px;
+        margin: 0 auto;
+    }
+    
+    .chek-texto{
+        width: 290px;
+        height: 338px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-confimacao{
+        font-weight: 600;
+    }
+    
+    
+    .img-fall{
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 20px;
+    }
+    
+    
+    .fall-texto{
+        width: 290px;
+        height: 338px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .texto-falha{
+        font-weight: 600;
+    }
+
+    
+}

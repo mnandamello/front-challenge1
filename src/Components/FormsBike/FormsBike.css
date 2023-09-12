@@ -1,0 +1,354 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 360px) and (max-width:743px) {
+
+    .body-forms {
+        background-color: #003D57;
+        width: 100%;
+        height: 50rem;
+        padding-top: 20px;
+    }
+    
+    .backgraound{
+        width: 340px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    
+    .form-fundo {
+        background-image: url('../../assets/bgFormBike.png');
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    
+    
+    .form-cont{
+        position: relative;
+        width: 95%;
+        height: 335px;
+        top: 205px;
+        left: 3.5%;
+    }
+    
+    
+    /*Estilização Forms*/
+    
+    .form-cont input{
+        width: 94%;
+        height: 35px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 20px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    
+    .form-cont input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+    
+    .form-cont legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+
+    .form-cont .checkbox1,.form-cont .checkbox2{
+        width: 20px;
+        height: 20px;
+    }
+
+    
+    .duble{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble input{
+        width: 140px;
+    }
+    
+    .duble #ano{
+        margin-right: 10px;
+    }
+    
+    
+    #marca::placeholder, #modelo::placeholder, #valor::placeholder, #ano::placeholder, #nf::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+    
+    .validB{
+        width: 137px;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px) {
+    .body-forms {
+        background-color: #003D57;
+        width: 100vw;
+        height: 75rem;
+        padding-top: 40px;
+    }
+    
+    .backgraound{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    
+    .form-fundo {
+        background-image: url('../../assets/bgFormBikeT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    
+    
+    .form-cont{
+        position: relative;
+        width: 95%;
+        height: 275px;
+        top: 360px;
+        left: 3.5%;
+    }
+    
+    
+    
+    /*Estilização Forms*/
+    
+    .form-cont input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+    
+    .form-cont input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+    
+    .form-cont legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+    
+    .duble{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble input{
+        width: 44%;
+    }
+    
+    .duble #ano{
+        margin-right: 30px;
+        width: 44%;
+    }
+    
+    
+    #marca::placeholder, #modelo::placeholder, #valor::placeholder, #ano::placeholder, #nf::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+    
+    .validB{
+        width: 200px;
+        margin: 0px auto;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width:834px)   {
+
+    .body-forms {
+        background-color: #003D57;
+        width: 100vw;
+        height:75rem;;
+        padding-top: 60px;
+    }
+
+    .backgraound{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .form-fundo {
+        background-image: url('../../assets/bgFormBikeT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+
+    .form-cont{
+        position: relative;
+        width: 95%;
+        height: 275px;
+        top: 360px;
+        left: 3.5%;
+    }
+
+
+
+    /*Estilização Forms*/
+
+    .form-cont input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+
+    .form-cont input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+
+    .form-cont legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+
+    .duble{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble input{
+        width: 44%;
+    }
+
+    .duble #ano{
+        margin-right: 30px;
+        width: 44%;
+    }
+
+
+    #marca::placeholder, #modelo::placeholder, #valor::placeholder, #ano::placeholder, #nf::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+
+    .validB{
+        width: 200px;
+        margin: 0px auto;
+    }
+
+}
+
+@media only screen and (min-width: 835px) and (max-width: 999px){
+    .body-forms {
+        background-color: #003D57;
+        width: 100vw;
+        height: 160vh;
+        padding-top: 60px;
+    }
+
+    .backgraound{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .form-fundo {
+        background-image: url('../../assets/bgFormBikeT.png');
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+
+    .form-cont{
+        position: relative;
+        width: 95%;
+        height: 275px;
+        top: 360px;
+        left: 3.5%;
+    }
+
+
+
+    /*Estilização Forms*/
+
+    .form-cont input{
+        width: 94%;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid rgb(190, 221, 235,58%);
+        margin: 0 0 40px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    }
+
+    .form-cont input:hover{
+        border: 2px solid rgb(70,185, 235,58%); 
+    }
+
+    .form-cont legend{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 5px 5px 20px 10px;
+        color: #3C95BC;
+    }
+
+    .duble{
+        display: flex;
+        justify-content: space-between;
+    }
+    .duble input{
+        width: 44%;
+    }
+
+    .duble #ano{
+        margin-right: 30px;
+        width: 44%;
+    }
+
+
+    #marca::placeholder, #modelo::placeholder, #valor::placeholder, #ano::placeholder, #nf::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0, 38%);
+    }
+
+    .validB{
+        margin-top: 50px;
+        position: relative;
+        top: 400px;
+        left: 170px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    .body-forms{
+        display: none;
+    }
+}

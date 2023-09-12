@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width:743px) and (min-width: 360px){
+  .header-info{
+    width: 100%;
+    height: 82px;
+    background-color: #003146;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-porto2{
+    width: 80px;
+    height: 27px;
+    margin-left: 24px;
+  }
+  
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px) {
+  .header-info{
+    width: 100%;
+    height: 92px;
+    background-color: #003146;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-porto2{
+    width: 120px;
+    height: 107px;
+    margin-left: 34px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+  .header-info{
+    width: 100%;
+    height: 92px;
+    background-color: #003146;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-porto2{
+    width: 120px;
+    height: 107px;
+    margin-left: 34px;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 999px){
+  .header-info{
+    width: 100%;
+    height: 92px;
+    background-color: #003146;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-porto2{
+    width: 120px;
+    height: 107px;
+    margin-left: 34px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .header-info{
+    display: none;
+  }
+}

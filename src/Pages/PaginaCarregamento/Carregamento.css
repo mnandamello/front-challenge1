@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body-carregamento{
+    background-color: #4cc4f1;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.gif img{
+    width: 100%;
+    margin-top: 40%;
+    position: absolute;
+}
+
+.gif-loadin{
+    position: relative;
+    top: 250px;
+    width: 70%;
+    left: 15%;
+}

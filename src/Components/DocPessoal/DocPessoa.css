@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:743px) and (min-width: 360px){
+  .container-doc-pessoal{
+    background-color: #EDEDED;
+    height: 93vh;
+    display: flex;
+    justify-content: center ;
+  }
+  
+  .title3{
+    border-bottom: 1px solid black;
+    width: 325px;
+    margin: 0 auto;
+  }
+  
+  .title3 h3{
+    color: #3C95BC;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    margin: 6px  0 4px 20px;
+  }
+  
+  .div-quadrado-info{
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infos-pessoais{
+    width: 355px;
+    height: 477px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  
+  .infos-pessoais p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .nome, .nascimento-cpf, .celular, .cidade-cep, .logradouro, .num-estado, .complemento{
+    margin: 0 0 20px 16px;
+  }
+  
+  .nome{
+    margin-top: 20px;
+  }
+  
+  .nascimento-cpf, .cidade-cep, .num-estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nascimento-cpf .cpf{
+    padding-right: 32px;
+  }
+  
+  .cidade-cep .cep, .num-estado .estado{
+    padding-right: 72px;
+  }
+  
+  .negrito2{
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .cinza2{
+    color: #857676;
+  }
+  
+  .back4{
+    margin-top: 50px;
+  }
+  
+}
+
+@media only screen and (min-width: 744px) and (max-width:799px){
+  .container-doc-pessoal{
+    background-color: #EDEDED;
+    height: 93vh;
+    display: flex;
+    justify-content: center ;
+  }
+  
+  .title3{
+    border-bottom: 1px solid black;
+    width: 325px;
+    margin: 0 auto;
+  }
+  
+  .title3 h3{
+    color: #3C95BC;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    margin: 6px  0 4px 20px;
+  }
+  
+  .div-quadrado-info{
+    width: 100%;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infos-pessoais{
+    width: 500px;
+    height: 777px;
+    background-color: #FFFFFF;
+    margin-top: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  
+  .infos-pessoais p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .nome, .nascimento-cpf, .celular, .cidade-cep, .logradouro, .num-estado, .complemento{
+    margin: 0 0 20px 16px;
+  }
+  
+  .nome{
+    margin-top: 20px;
+  }
+  
+  .nascimento-cpf, .cidade-cep, .num-estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nascimento-cpf .cpf{
+    padding-right: 32px;
+  }
+  
+  .cidade-cep .cep, .num-estado .estado{
+    padding-right: 72px;
+  }
+  
+  .negrito2{
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .cinza2{
+    color: #857676;
+  }
+  
+  .back4{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+@media only screen and (min-width: 800px) and (max-width:834px){
+  .container-doc-pessoal{
+    background-color: #EDEDED;
+    height: 90vh;
+    display: flex;
+    justify-content: center ;
+  }
+  
+  .title3{
+    border-bottom: 1px solid black;
+    width: 325px;
+    margin: 0 auto;
+  }
+  
+  .title3 h3{
+    color: #3C95BC;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    margin: 6px  0 4px 20px;
+  }
+  
+  .div-quadrado-info{
+    width: 100%;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infos-pessoais{
+    width: 500px;
+    height: 777px;
+    background-color: #FFFFFF;
+    margin-top: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  
+  .infos-pessoais p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .nome, .nascimento-cpf, .celular, .cidade-cep, .logradouro, .num-estado, .complemento{
+    margin: 0 0 20px 16px;
+  }
+  
+  .nome{
+    margin-top: 20px;
+  }
+  
+  .nascimento-cpf, .cidade-cep, .num-estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nascimento-cpf .cpf{
+    padding-right: 32px;
+  }
+  
+  .cidade-cep .cep, .num-estado .estado{
+    padding-right: 72px;
+  }
+  
+  .negrito2{
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .cinza2{
+    color: #857676;
+  }
+  
+  .back4{
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+@media only screen and (min-width: 835px) and (max-width: 850px){
+  .container-doc-pessoal{
+    background-color: #EDEDED;
+    height: 93vh;
+    display: flex;
+    justify-content: center ;
+  }
+  
+  .title3{
+    border-bottom: 1px solid black;
+    width: 325px;
+    margin: 0 auto;
+  }
+  
+  .title3 h3{
+    color: #3C95BC;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    margin: 6px  0 4px 20px;
+  }
+  
+  .div-quadrado-info{
+    width: 100%;
+    height: 562px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infos-pessoais{
+    width: 355px;
+    height: 477px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  
+  .infos-pessoais p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .nome, .nascimento-cpf, .celular, .cidade-cep, .logradouro, .num-estado, .complemento{
+    margin: 0 0 20px 16px;
+  }
+  
+  .nome{
+    margin-top: 20px;
+  }
+  
+  .nascimento-cpf, .cidade-cep, .num-estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nascimento-cpf .cpf{
+    padding-right: 32px;
+  }
+  
+  .cidade-cep .cep, .num-estado .estado{
+    padding-right: 72px;
+  }
+  
+  .negrito2{
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .cinza2{
+    color: #857676;
+  }
+  
+  .back4{
+    margin-top: 50px;
+  }
+  
+}
+
+@media only screen and (min-width: 851px){
+  .container-doc-pessoal{
+    display: none;  
+  }
+}

@@ -1,0 +1,81 @@
+import React from 'react'
+import './DocBikes.css'
+import back1 from '../../assets/imgLinkBack.svg'
+import galeria from '../../assets/img-galeria.svg'
+import { Link } from 'react-router-dom'
+
+export default function DocBikes() {
+  return (
+    <div>
+      <div className="container-doc-bike">
+        <div className="div-quadrados-infos">
+          <div className="info-bike">
+            <div className="title1">
+              <h3>Informações da Bicicleta</h3>
+            </div>
+            <div className="marca-bk">
+              <p className='negrito'>Marca Bike</p>
+              <p className='cinza'>Maria Fernanda Fernanda Ribeiro Mello</p>
+            </div>
+            <div className="modelo-bk">
+            <p className='negrito'>Modelo da Bike</p>
+            <p className='cinza'>Caloi132</p>
+            </div>
+            <div className="valor-ano">
+              <div className="valor-bk">
+                <p className='negrito'>Valor da Bike</p>
+                <p className='cinza'>1200</p>
+              </div>
+              <div className="ano-bk">
+                <p className='negrito'> Ano de compra da Bike</p>
+                <p className='cinza'>1200</p>
+              </div>
+            </div>
+            <div className="nf-bk">
+              <p className='negrito'>Nota fiscal da bike</p>
+              <p className='cinza'>000000000000</p>
+            </div>
+          </div>
+          <div className="info-ac">
+            <div className="title2">
+                <h3>Informações dos acessórios</h3>
+              </div>
+              <div className="marca-ac">
+                <p className='negrito'>Marca Bike</p>
+                <p className='cinza'>Maria Fernanda Fernanda Ribeiro Mello</p>
+              </div>
+              <div className="modelo-ac">
+                <p className='negrito'>Modelo da Bike</p>
+                <p className='cinza'>Caloi132</p>
+              </div>
+              <div className="tipo-valor-ac">
+                <div className="tipo-ac">
+                    <p className='negrito'>Valor da Bike</p>
+                    <p className='cinza'>1200</p>
+                </div>
+                <div className="valor-ac">
+                  <p className='negrito'> Ano de compra da Bike</p>
+                  <p className='cinza'>1200</p>
+                </div>
+              </div>
+              <div className="nf-ac">
+                <p className='negrito'>Nota fiscal da bike</p>
+                <p className='cinza'>000000000000</p>
+              </div>
+            </div>
+            <div className="info-fotos">
+              <div className="texto-foto">
+                <p className='p-bike'>Acessar fotos da bicicleta</p>
+              </div>
+              <div className="img-galeria">
+                <a href=""><img src={galeria} alt="" /></a>
+              </div>
+            </div>
+            <div className="back1">
+              <Link to='/escolhaBike'><img src={back1} alt="" /></Link>
+            </div>
+          </div>
+        </div>
+      </div>
+  )
+}
