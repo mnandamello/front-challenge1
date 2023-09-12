@@ -22,7 +22,7 @@ export default function CardSquad(props) {
             <a href={props.social.github}><img className="fab" src={git} alt=""/></a>
             <a href={props.social.linkedin}><img className="fab" src={linkedin  } alt=""/></a>
           </div> 
-          <button className="contac-me">Contate-me</button> 
+          <button className="contac-me">Contate-me</button>   
         </div>
 
         </div>
