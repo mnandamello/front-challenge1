@@ -25,7 +25,7 @@ export default function FormsBike() {
 
   function inserirFormBk(FormsBike){
     setlistaForm([...listaForm, FormsBike])
-    window.location.href = '/';
+    window.location.href = '/formAc';
   }
 
   return (
@@ -40,7 +40,7 @@ export default function FormsBike() {
           </div>
           <div className="form-fundo">
             <div className="form-cont">
-              <form action="/" onSubmit={handleSubmit(inserirFormBk)}>
+              <form action="/formAc" onSubmit={handleSubmit(inserirFormBk)}>
                 <legend>Informações da Bike</legend>
                 <input
                   id="marca"

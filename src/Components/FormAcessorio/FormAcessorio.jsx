@@ -26,7 +26,7 @@ export default function FormAcessorio() {
 
   function inserirFormAc(FormAcessorio){
     setlistaForm([...listaForm, FormAcessorio])
-    window.location.href = '/';
+    window.location.href = '/fotosBk';
   }
 
   
@@ -42,7 +42,7 @@ export default function FormAcessorio() {
           </div>
           <div className="fundo-img">
             <div className="form-ac">
-              <form action="/" onSubmit={handleSubmit(inserirFormAc)}>
+              <form action="/fotosBk" onSubmit={handleSubmit(inserirFormAc)}>
                 <legend>Informações do Acessório</legend>
                 <input
                   id="marcaC"

@@ -106,6 +106,10 @@
         
     }
 
+    .div-prog3{
+        padding-top: 65px;
+    }
+
     .titulos-Ft{
         font-size: 24px;
     }
@@ -207,7 +211,11 @@
     .container-cliente{
         background-color: #003146;
         min-height: 100vh;
-        
+    }
+
+    
+    .div-prog3{
+        padding-top: 73px;
     }
 
     .titulos-Ft{

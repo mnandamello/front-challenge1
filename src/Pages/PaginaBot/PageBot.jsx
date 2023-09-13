@@ -9,7 +9,7 @@ export default function PageBot() {
   return (
     <div>
       <HeaderInfos/>
-      <CarroselFotos/>
+      <CardBot/>
       <NavBar/>
     </div>
   )
