@@ -15,20 +15,20 @@ export default function DocBikes() {
             </div>
             <div className="marca-bk">
               <p className='negrito'>Marca Bike</p>
-              <p className='cinza'>Maria Fernanda Fernanda Ribeiro Mello</p>
+              <p className='cinza'>Caloi</p>
             </div>
             <div className="modelo-bk">
             <p className='negrito'>Modelo da Bike</p>
-            <p className='cinza'>Caloi132</p>
+            <p className='cinza'>City Tour Comp</p>
             </div>
             <div className="valor-ano">
               <div className="valor-bk">
                 <p className='negrito'>Valor da Bike</p>
-                <p className='cinza'>1200</p>
+                <p className='cinza'>4700</p>
               </div>
               <div className="ano-bk">
                 <p className='negrito'> Ano de compra da Bike</p>
-                <p className='cinza'>1200</p>
+                <p className='cinza'>2018</p>
               </div>
             </div>
             <div className="nf-bk">
@@ -41,25 +41,25 @@ export default function DocBikes() {
                 <h3>Informações dos acessórios</h3>
               </div>
               <div className="marca-ac">
-                <p className='negrito'>Marca Bike</p>
-                <p className='cinza'>Maria Fernanda Fernanda Ribeiro Mello</p>
+                <p className='negrito'>Marca do Acessório</p>
+                <p className='cinza'>Multilaser</p>
               </div>
               <div className="modelo-ac">
-                <p className='negrito'>Modelo da Bike</p>
-                <p className='cinza'>Caloi132</p>
+                <p className='negrito'>Modelo do Acessório</p>
+                <p className='cinza'>GPS Atrio Iron</p>
               </div>
               <div className="tipo-valor-ac">
                 <div className="tipo-ac">
-                    <p className='negrito'>Valor da Bike</p>
-                    <p className='cinza'>1200</p>
+                    <p className='negrito'>Tipo do Acessório</p>
+                    <p className='cinza'>GPS</p>
                 </div>
                 <div className="valor-ac">
-                  <p className='negrito'> Ano de compra da Bike</p>
-                  <p className='cinza'>1200</p>
+                  <p className='negrito'>Valor do Acessório</p>
+                  <p className='cinza'>130</p>
                 </div>
               </div>
               <div className="nf-ac">
-                <p className='negrito'>Nota fiscal da bike</p>
+                <p className='negrito'>Nota fiscal do acessório</p>
                 <p className='cinza'>000000000000</p>
               </div>
             </div>

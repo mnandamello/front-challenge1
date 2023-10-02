@@ -9,6 +9,7 @@ export default function EscolhaBike() {
     <div>
       <div className="container-escolha">
         <div className="div-quadrado">
+        <Link to='/docBike'>
           <div className="div-infos">
             <div className="div-textos">
               <p className='title'>Minha Bicicleta</p>
@@ -16,9 +17,10 @@ export default function EscolhaBike() {
               <p className='data-aq'>Aquisição do seguro: </p>
             </div>
             <div className="link-proximo">
-              <Link to='/docBike'><img src={avancar} alt="" /></Link>
+              <img src={avancar} alt="" />
             </div>
           </div>
+        </Link>
           <div className="back">
             <Link to='/documentos'><img src={back} alt="" /></Link>
           </div>

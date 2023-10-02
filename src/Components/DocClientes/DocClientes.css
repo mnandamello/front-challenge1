@@ -14,7 +14,6 @@
     flex-direction: column;
     width: 355px;
     margin: 0 auto;
-    padding-top: 60px;
   }
   
   .perfil{
@@ -35,7 +34,7 @@
     width: 355px;
     height: 110px;
     margin: 30px auto 0;
-    background-image:url('../../assets/imgVoltarProcesso.png') ;
+    background-image:url('../../assets/imgVoltarProcesso1.png') ;
   
   }
   
@@ -45,13 +44,15 @@
   }
 
   .caixa-rotulos3{
-    width: 100px;
+    width: 150px;
     margin: 45px 180px;
+    padding-bottom: 50px;
   }
   
-  .rotulos{
+  .rotulos, .rotulos-2{
     font-size: 20px;
-    margin: 45px auto 0px;
+    margin: 0px auto 0px;
+    padding-top: 45px;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -60,7 +61,7 @@
 @media only screen and (min-width: 744px) and (max-width:799px){
 .container-cliente-info{
   background-color: #EDEDED;
-  height: 85vh;
+  height: 100vh;
 }
 
 .opcao-perfil{
@@ -68,7 +69,6 @@
   flex-direction: column;
   width: 655px;
   margin: 0 auto;
-  padding-top: 60px;
 }
 
 .perfil{
@@ -106,6 +106,13 @@
 .rotulos{
   font-size: 28px;
   font-family: 'Poppins', sans-serif;
+  padding-top: 80px;
+}
+
+.rotulos-2{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 70px;
 }
 
 }
@@ -121,7 +128,6 @@
     flex-direction: column;
     width: 655px;
     margin: 0 auto;
-    padding-top: 60px;
   }
   
   .perfil{
@@ -159,6 +165,14 @@
   .rotulos{
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
+    padding-top: 80px;
+
+  }
+
+  .rotulos-2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
   }
 }
 
@@ -204,6 +218,12 @@
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
   }
+
+  .rotulos-2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+  }  
 }
 
 @media only screen and (min-width: 851px){

@@ -5,6 +5,7 @@ import CardSquad from "../../Components/CardSquad/CardSquad";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NavBar from "../../Components/NavBar/NavBar";
+import HeaderInfos from "../../Components/HeaderInfos/HeaderInfos";
 
 export default function PaginaCardSquad() {
 
@@ -89,6 +90,7 @@ export default function PaginaCardSquad() {
 
   return (
     <>
+      <HeaderInfos/>
       <div className="propsCards">
         <Slider {...settings}>
           {participants.map((member, index) => (

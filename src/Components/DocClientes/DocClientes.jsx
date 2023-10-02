@@ -7,23 +7,27 @@ export default function DocClientes() {
     <div>
       <div className="container-cliente-info">
         <div className="opcao-perfil">
-            <div className="perfil">
-                <div className="caixa-rotulos">
-                    <Link to='/doccliente'><h3 className="rotulos">Proprietario</h3></Link>
-                </div>
-            </div>
-            <div className="bicicleta">
-                <div className="caixa-rotulos">
-                    <Link to='/escolhaBike'><h3 className="rotulos">Bicicletas</h3></Link>
-                </div>
-            </div>
-
-            <div className="volta-processo">
-                <div className="caixa-rotulos3">
-                    <Link to='/tipopessoa'><h3 className="rotulos">Processo</h3></Link>
-                </div>
-            </div>
-
+            <Link to='/doccliente'>
+              <div className="perfil">
+                  <div className="caixa-rotulos">
+                      <h3 className="rotulos">Proprietario</h3>
+                  </div>
+              </div>
+            </Link>
+            <Link to='/escolhaBike'>
+              <div className="bicicleta">
+                  <div className="caixa-rotulos">
+                    <h3 className="rotulos">Bicicletas</h3>
+                  </div>
+              </div>
+            </Link>
+            <Link to='/tipopessoa'>
+              <div className="volta-processo">
+                  <div className="caixa-rotulos3">
+                        <h3 className="rotulos-2">Novo Seguro</h3>
+                  </div>
+              </div>
+            </Link>
         </div>
       </div>
     </div>

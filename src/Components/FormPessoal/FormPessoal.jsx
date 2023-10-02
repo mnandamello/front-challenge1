@@ -28,7 +28,7 @@ export default function FormPessoal() {
   const {register, handleSubmit, formState: {errors}, setFocus, setValue} = useForm({resolver : yupResolver(schema)})
 
   const [formPessoal, setformPessoal] = useState ({'Nome' : '', 'DtNascimento':'', 'CPF':'', 'Celular':'', 'Cep':'', 'Cidade':'', 'Logradouro':'', 'Número':'', 'Estado':'', 'Complemento':''})
-  
+  ''
   const [listaForm, setlistaForm] = useState([])
 
   function inserirFormPessoal(FormPessoal){

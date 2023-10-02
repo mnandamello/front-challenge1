@@ -8,6 +8,12 @@ import bikeChassi from '../../assets/exemplo5T.png'
 import Button from '../Button/Button'
 import Progresso4 from '../Progresso/Progresso4'
 import { Link } from 'react-router-dom'
+import { api } from '../../api/api'
+
+
+/*async function bikeDetect(){
+    const ressponse = await api.post(``)
+}*/
 
 export default function FtBike() {
   return (
