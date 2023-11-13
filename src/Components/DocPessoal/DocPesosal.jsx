@@ -3,7 +3,7 @@ import './DocPessoa.css'
 import back2 from '../../assets/imgLinkBack.svg'
 import { Link } from 'react-router-dom'
 
-export default function DocPesosal(props) {
+export default function DocPesosal() {
   return (
   <div>
     <div className="container-doc-pessoal">
@@ -14,7 +14,7 @@ export default function DocPesosal(props) {
             </div>
             <div className="nome">
               <p className='negrito2'>Nome completo:</p>
-              <p className='cinza2'>Maria Fernanda Ribeiro Mello</p>
+              <p className='cinza2'></p>
             </div>
             <div className="nascimento-cpf">
               <div className="nascimento">

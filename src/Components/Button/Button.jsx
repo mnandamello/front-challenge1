@@ -4,7 +4,7 @@ import './Button.css'
 export default function Button() {
   return (
     <div className='btn'>
-      <button>Validar</button>
+      <button type='submit'>Validar</button>
     </div>
 
   )

@@ -2,9 +2,15 @@ import React from "react";
 import "./Perfil.css";
 import Button from "../Button/Button";
 import Header from "../Header/Header";
-import Progresso from "../Progresso/Progresso1";
 import { Link } from "react-router-dom";
 import Progresso1 from "../Progresso/Progresso1";
+
+
+
+
+
+
+
 
 export default function Perfil() {
   return (
