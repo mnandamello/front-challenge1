@@ -14,7 +14,7 @@ export default function DocPesosal() {
             </div>
             <div className="nome">
               <p className='negrito2'>Nome completo:</p>
-              <p className='cinza2'></p>
+              <p className='cinza2'>Maria Fernanda Ribeiro Mello</p>
             </div>
             <div className="nascimento-cpf">
               <div className="nascimento">

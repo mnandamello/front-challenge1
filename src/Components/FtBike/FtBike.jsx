@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './FtBike.css'
 import fundo from '../../assets/fundoFtBike.jpg'
 import Button from '../Button/Button'
@@ -11,6 +11,14 @@ import { Link } from 'react-router-dom'
 }*/
 
 export default function FtBike() {
+
+    const handleSelecionarImagem = (event) => {
+        
+        alert('é uma bike')
+      };
+
+
+
   return (
     <>
         <div className='container-cliente'>
@@ -25,8 +33,8 @@ export default function FtBike() {
                                     <img className="bk-ft-esquerda" src={fundo} alt=""/>
                                 </div>
                                 <div className="form-ft-bk">
-                                    <input type="file" name="picture" accept="image/*" capture="user" placeholder='Tirar Foto' />
-                                    <button className='btn2'>Enviar</button>
+                                    <input type="file" name="picture" accept="image/*" capture="user" placeholder='Tirar Foto'/>
+                                    <button className='btn2' onClick={handleSelecionarImagem}>Enviar</button>
                                 </div>
                             </div>
                     </div>

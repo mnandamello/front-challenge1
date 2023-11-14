@@ -30,12 +30,12 @@
         padding-bottom: 30px;
     }
     
-    .ft-bike-esquerda{
+  /*   .ft-bike-esquerda{
         width: 300px;
         margin: 0px auto;;
         color: #3C95BC;
         padding-top:10px ;
-    }
+    } */
 
     .ft-bike-esquerda2{
         width: 300px;
@@ -48,28 +48,29 @@
         width: 300px;
     }
 
-    .bk-ft-frente, .bk-ft-tras, .bk-ft-chassi{
+/*     .bk-ft-frente, .bk-ft-tras, .bk-ft-chassi{
         width: 220px;
-    }
+    } */
     
-    .ft-bike-direita {
+/*     .ft-bike-direita {
         width: 300px;
         margin: 20px auto;
         color: #3C95BC;
-    }
+    } */
     
-    .bk-direita, .bk-esquerda{
+    /* .bk-direita,  */.bk-esquerda{
         width: 280px;
         margin: 10px auto;
     }
     
-    .bk-ft-chassi{
+   /*  .bk-ft-chassi{
         margin-left: 35px;
-    }
+    } */
 
     .bk-ft-esquerda{
         width: 80px;
         height: 200px;
+        padding-right: 20px;
     }
     
   /*   h3{
@@ -104,6 +105,12 @@
         border-radius: 5px;
     }
     
+    .btn2:hover{
+        background-color: #5eaaca;
+
+    }
+
+
     .conteudo-ft{
         background-color: white;
         border-radius: 20px;
@@ -148,13 +155,13 @@
         border-radius: 20px;
     }
     
-    .ft-bike-esquerda{
+   /*  .ft-bike-esquerda{
         width: 400px;
         margin: 0px auto;
         color: #3C95BC;
         padding-top:10px ;
     }
-
+ */
     .ft-bike-esquerda2{
         width: 400px;
         margin: 0px auto;
@@ -163,29 +170,29 @@
     }
     
     
-    .ft-bike-direita {
+   /*  .ft-bike-direita {
         width: 400px;
         margin: 50px auto;
         color: #3C95BC;
-    }
+    } */
     
-    .bk-direita, .bk-esquerda{
+    /* .bk-direita, */ .bk-esquerda{
         width: 330px;
         margin: 10px auto;
     }
     
-    .bk-ft-tras{
+   /*  .bk-ft-tras{
         margin: 0 0 7px 10px;
-    }
+    } */
     
-    .bk-ft-frente{
+    /* .bk-ft-frente{
         margin: 0 0 7px 0;
         margin-left: 15px;
-    }
+    } */
 
-    .bk-ft-chassi{
+   /*  .bk-ft-chassi{
         margin: 0 0 7px 0px;
-    }
+    } */
     
     /* h3{
         margin: 0 auto 20px;
@@ -256,12 +263,12 @@
         border-radius: 20px;
     }
     
-    .ft-bike-esquerda{
+  /*   .ft-bike-esquerda{
         width: 400px;
         margin: 0px auto;
         color: #3C95BC;
         padding-top:10px ;
-    }
+    } */
 
     .ft-bike-esquerda2{
         width: 400px;
@@ -271,29 +278,29 @@
     }
     
     
-    .ft-bike-direita {
+   /*  .ft-bike-direita {
         width: 400px;
         margin: 50px auto;
         color: #3C95BC;
-    }
+    } */
     
-    .bk-direita, .bk-esquerda{
+    /* .bk-direita, */ .bk-esquerda{
         width: 330px;
         margin: 10px auto;
     }
     
-    .bk-ft-tras{
+   /*  .bk-ft-tras{
         margin: 0 0 7px 10px;
-    }
+    } */
     
-    .bk-ft-frente{
+   /*  .bk-ft-frente{
         margin: 0 0 7px 0;
         margin-left: 15px;
     }
 
     .bk-ft-chassi{
         margin: 0 0 7px 0px;
-    }
+    } */
     
     /* h3{
         margin: 0 auto 20px;

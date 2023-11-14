@@ -63,14 +63,6 @@ export default function DocBikes() {
                 <p className='cinza'>000000000000</p>
               </div>
             </div>
-            <div className="info-fotos">
-              <div className="texto-foto">
-                <p className='p-bike'>Acessar fotos da bicicleta</p>
-              </div>
-              <div className="img-galeria">
-                <Link to='/carrosel'><img src={galeria} alt="" /></Link>
-              </div>
-            </div>
             <div className="back1">
               <Link to='/escolhaBike'><img src={back1} alt="" /></Link>
             </div>

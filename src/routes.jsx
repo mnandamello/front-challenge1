@@ -12,9 +12,6 @@ import PageDadosBikeAc from './Pages/PaginasDoCliente/PageDadosBikeAc';
 import PageBike from './Pages/PaginasDoCliente/PageBike';
 import PaginaCardSquad from './Pages/PaginaCardSquad/PaginaCardSquad';
 import PageStatus from './Pages/PaginaStatus/PageStatus';
-import CarroselFotos from './Components/Carroselfotos/CarroselFfotos';
-import PageFotos from './Pages/PaginaFotos/PageFotos';
-import PageBot from './Pages/PaginaBot/PageBot';
 
 export default function Approutes() {
   return (
@@ -33,8 +30,6 @@ export default function Approutes() {
             <Route path='/escolhaBike' element={<PageDadosBikeAc/>}></Route>
             <Route path='/docBike' element={<PageBike/>}></Route>
             <Route path='/squad' element={<PaginaCardSquad/>}></Route>
-            <Route path='/carrosel' element={<PageFotos/>}></Route>
-            <Route path='/bot' element={<PageBot/>}></Route>
 
           </Routes>
         </BrowserRouter>
